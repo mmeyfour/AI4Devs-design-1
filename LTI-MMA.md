@@ -108,32 +108,36 @@ El sistema se estructura en tres capas:
 
 ### Diagrama de Arquitectura
 
+```
 graph TD*;*
     A[Frontend Web] -->|REST API| B[Backend]
     B -->|Autenticación| C[Servicio de Usuarios]
     B -->|Gestión de Vacantes| D[Servicio de Vacantes]
     B -->|IA de Selección| E[Módulo de IA]
     B -->|Almacenamiento| F[Base de Datos]
+```
 
 ### 7. Diagrama C4
 
 ### Nivel 1: Contexto
 
+```
 graph TD*;*
     A[Usuario] -->|Usa| B[Sistema LTI ATS]
     B -->|Conecta con| C[Plataformas de Empleo]
     B -->|Accede a| D[Base de Datos]
     B -->|Integra con| E[Servicios de IA]
+```
 
 ### Nivel 2: Contenedores
 
+```
 graph TD*;*
     A[Web App] -->|REST API| B[Backend (Django)]
     B -->|Almacena datos en| C[PostgreSQL]
     B -->|Procesa IA con| D[Servicio de IA]
     B -->|Enlaza con| E[Plataformas de Empleo]
-
-
+```
 
 ⸻
 
