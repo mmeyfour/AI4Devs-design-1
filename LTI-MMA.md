@@ -1,3 +1,4 @@
+#### Chat-Gpt -4o
 ### Prompet
 Eres un product manager experto en gestion y creacion de startup, tambien tienes una gran experiencia en diseño de diagramas y sistema a alto nivel. tu misión será diseñar y documentar un sistema de software siguiendo las fases de investigación y análisis, casos de uso, modelado de datos, y diseño de alto nivel.
 ¿Y qué sistema? El de LTI.
